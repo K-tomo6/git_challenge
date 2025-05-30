@@ -1,0 +1,23 @@
+    1  git --version
+    2  pwd
+    3  git init "git_challenge"
+    4  cd git_challenge
+    5  echo 'Hello!,world' > hello_world.txt
+    6  git add hello_world.txt
+    7  git commit -m 'hello_world.txt'
+    8  echo 'こんにちは、世界！' > hello_world.txt！' > hello_world.txt「hello_world.txt」に2回の変更をコミットするgit checkout HEAD -- hello_world.txt
+git checkout HEAD -- hello_world.txt
+cat hello_world.txt
+    9  git checkout HEAD -- hello_world.txt
+   10  cat hello_world.txt
+   11  echo 'こんにちは、世界' > hello_world.txt
+   12  git add hello_world.txt
+   13  git commit -m 'Update hello_world.txt'
+   14  git statusu
+   15  git statusu
+   16  git status
+   17  mkdir kadai_005
+   18  cd kadai_005
+   19  touch kadai_005.txt
+   20  history > ~/git_challenge/kadai_005.txt
+   21  history > kadai_005.txt
